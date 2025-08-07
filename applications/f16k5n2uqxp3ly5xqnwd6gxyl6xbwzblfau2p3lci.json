@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f16k5n2uqxp3ly5xqnwd6gxyl6xbwzblfau2p3lci",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Hunan Zero Point Realm Media Co., Ltd.",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.bgyhcm.com/index.html",
+    "Social Media": "http://www.bgyhcm.com/index.html",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Located on the banks of Yanghu and the Xiangjiang River, Hunan Zero Point Realm Media Co., Ltd. was personally invited by Mr. Li Zijian to move into the Li Zijian Art Museum in October 2016, becoming the museum's sole designated film and television institution. The core creative team members all have over eight years of experience in the film, television, and cultural media industry, possessing extensive expertise and a track record of successful projects.\n\nThe company utilizes advanced digital film and television and multimedia technologies to provide professional services in film planning, shooting, and post-production. With strong technical capabilities and state-of-the-art film and multimedia production equipment, the company has accumulated rich experience and offers sincere service in areas such as corporate promotional videos, micro-movies, advertisements, documentaries, TV programs, short videos, personalized custom productions, large-scale live event filming and production, 3D animation, and Flash animation. These efforts have earned recognition and support from numerous clients.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Corporate promotional videos, micro-movies, advertisements, documentaries, program production, short videos, personalized customization, on-site filming and production for large-scale events, 3D animation, Flash animation, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "As a dedicated Filecoin enthusiast, I have great confidence in the future development of IPFS, and I also have considerable experience in data preparation, primarily using the Filecoin official tools Boost and Lotus.\n\nThe first step in data preparation is selecting suitable datasets, often sourced from public data, research projects, or user backups, ensuring that the data holds value and aligns with the philosophy of decentralized storage. Next, I import this data into a local IPFS node to generate a unique content identifier (CID), preparing it for subsequent on-chain operations.\n\nThen, I utilize Filecoin Boost to efficiently manage data packaging and transfer, as it optimizes deal matching processes and improves the success rate and efficiency of uploading data to miners. At the same time, by integrating with a Lotus node, I can manually configure settings for more flexible control over the upload process and monitor on-chain status.\n\nTo increase success rates, I perform pre-validation of the data to ensure it meets the format requirements of the Filecoin storage market and confirm that the node is in good synchronization status. Throughout the entire process, I also emphasize data integrity checks to prevent failures caused by network interruptions or hardware issues.\n\nFinally, after the data is successfully uploaded to the blockchain, I continuously monitor the deal's status to ensure stable operation and the receipt of expected block rewards. Through continuous optimization of this series of processes, I have not only enhanced my professionalism in data preparation but also contributed to the growth of the IPFS ecosystem.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.bgyhcm.com/case/122.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01021773\nf01081419\nf01083931\nf01084149\nf01084949\nf01708981\nf02825281\nf02826762\nf02827010\nf02827135\nf03602120\nf03611998\nf03623218",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-07 11:16:04.538331249 UTC",
+    "Validated By": "leier1987",
+    "Active": true,
+    "Updated At": "2025-08-07 11:16:04.538326669 UTC",
+    "Active Request ID": "81981c66-c756-443d-ad49-0b4883ab5628",
+    "On Chain Address": "f16k5n2uqxp3ly5xqnwd6gxyl6xbwzblfau2p3lci",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "81981c66-c756-443d-ad49-0b4883ab5628",
+      "Request Type": "First",
+      "Created At": "2025-08-07 11:13:34.866759281 UTC",
+      "Updated At": "2025-08-07 11:13:34.866760903 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "leier1987",
+          "Signing Address": "f15ivxaevot63uwxav6vtjoqon76r7jwyovqrfk7q",
+          "Created At": "2025-08-07 11:16:02.183000000 UTC",
+          "Message CID": "bafy2bzacebvjn73zfn2x4s4kl3bqe7phvgkyq33ok2dwxfoac3mmhh5zwd7lu"
+        }
+      ]
+    }
+  ]
+}
