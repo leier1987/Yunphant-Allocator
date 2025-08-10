@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1zzxiixpqv37wrff7igjv2olvethald3tv43ab7a",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "yilanwenhua",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.yilanwenhua.com/index.html",
+    "Social Media": "http://www.yilanwenhua.com/index.html",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "BlueWing Film & TV, established in May 2012, is a film and television program production and operation licensed entity approved by the National Radio and Television Administration and the Henan Provincial Press and Publication Broadcasting and Television Bureau. It has now become one of the most influential film and television production companies within Henan Province. The company is a comprehensive media firm specializing in the planning, production, and development of feature films, corporate promotional videos, TV commercials, new media films, documentaries, special programs, and television content.\n\nCurrently employing over fifty staff members, BlueWing's creative team consists entirely of in-house personnel, with more than 80% having prior experience at top-tier film and television companies in Beijing, Shanghai, and Guangzhou. At BlueWing, \"eliminating all outsourcing\" is our fundamental service principle.\n\nSince its founding, BlueWing has provided efficient and professional high-quality services to numerous enterprises and institutions—including the Henan Communications Investment Group, the Henan Provincial Health Department, BYD Auto, Kangqiao Real Estate, Greenland Group, Chu Ying Group, and China Resources Pharmaceutical Group—earning recognition for its distinctive creative style and commitment to excellence.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "New media films",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "The Filecoin data preparation process begins with data pre-processing, where the user's data to be stored is split into chunks suitable for Filecoin sector sizes and possibly consolidated to improve storage efficiency. This is followed by the data sealing phase, which includes Seal PreCommit1, PreCommit2, and Commit steps, involving complex cryptographic computations to generate CommR and CommC that prove the authenticity of the stored data. Subsequently, miners must submit these proofs generated after sealing to the Filecoin blockchain for verification, and once verified, the sector is activated and begins participating in network consensus. During storage deals, client data is transmitted to miners through secure channels, and upon receipt, miners verify data integrity before proceeding with the sealing process. Finally, publicly verifiable storage proofs are periodically generated to ensure data is correctly stored and to maintain the validity of the storage contract.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.yilanwenhua.com/case/143-0.html\nhttp://www.yilanwenhua.com/case/144-0.html\nhttp://www.yilanwenhua.com/case/145-0.html\nhttp://www.yilanwenhua.com/case/146-0.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03620434 \nf03620442 \nf03601967 \nf03620433 \nf03620447 \nf03620446\nf03620441 \nf03340635 \nf03601993",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10P",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "600TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-10 11:09:29.544136845 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1zzxiixpqv37wrff7igjv2olvethald3tv43ab7a",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
