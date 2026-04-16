@@ -35,7 +35,7 @@
     "Weekly Allocation": "600TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-08-10 14:20:36.562321896 UTC",
     "Validated By": "leier1987",
     "Active": true,
