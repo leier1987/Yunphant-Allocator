@@ -35,11 +35,11 @@
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-04-16 07:26:43.954859628 UTC",
+    "State": "Granted",
+    "Validated At": "2026-04-16 07:28:07.724251441 UTC",
     "Validated By": "leier1987",
     "Active": true,
-    "Updated At": "2026-04-16 07:26:43.954863159 UTC",
+    "Updated At": "2026-04-16 07:28:07.724247220 UTC",
     "Active Request ID": "5c583503-852a-4b2f-9cdc-7b1eeb760d15",
     "On Chain Address": "f16k5n2uqxp3ly5xqnwd6gxyl6xbwzblfau2p3lci",
     "Multisig Address": "false",
@@ -163,9 +163,16 @@
       "Request Type": "Refill",
       "Created At": "2026-04-16 07:26:43.954875474 UTC",
       "Updated At": "2026-04-16 07:26:43.954876239 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2251799813685248B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "leier1987",
+          "Signing Address": "f15ivxaevot63uwxav6vtjoqon76r7jwyovqrfk7q",
+          "Created At": "2026-04-16 07:28:05.154000000 UTC",
+          "Message CID": "bafy2bzacebx3fsnpxwewy6rl7firxuxcyqsfyzjgw73eazs2svn3lhjxmt5zs"
+        }
+      ]
     }
   ]
 }
